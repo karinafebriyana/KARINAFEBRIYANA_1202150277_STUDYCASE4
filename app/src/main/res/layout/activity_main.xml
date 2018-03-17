@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8BFD8"
+    android:orientation="vertical"
+    tools:context="com.example.karinafebriyana.karinafebriyana_1202150277_studycase4.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="MENU:"
+        android:textAlignment="center"
+        android:textColor="#FFC0CB"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#87CEEB"
+        android:text="List Nama Mahasiswa"
+        android:textColor="#FFC0CB"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Pencari Gambar"
+        android:textColor="#FFC0CB"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>
